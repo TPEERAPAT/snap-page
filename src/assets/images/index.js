@@ -8,7 +8,7 @@ import databiz from "./databiz.svg";
 import deskTop from "./desktop.png";
 import logo from "./logo.svg";
 import meet from "./meet.svg";
-import munu from "./menu.svg";
+import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import planning from "./planning.svg";
 import reminders from "./reminders.svg";
@@ -26,7 +26,7 @@ export {
     deskTop,
     logo,
     meet,
-    munu,
+    menu,
     mobile,
     planning,
     reminders,

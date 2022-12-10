@@ -1,33 +1,4 @@
-import {   arrowDown, audiophile, calender, cliectMaker, databiz, meet, planning, reminders, todo } from "../assets/images";
-
-export const NavbarLinks = [
-    {
-        id: "features",
-        icon: arrowDown,
-        title: "Features",
-    },
-    {
-        id: "company",
-        icon: arrowDown,
-        title: "Company",
-    },
-    {
-        id: "careers",
-        title: "Careers",
-    },
-    {
-        id: "about",
-        title: "About",
-    },
-    {
-        id: "login",
-        title: "Login",
-    },
-    {
-        id: "register",
-        title: "Register",
-    },
-];
+import {  audiophile, calender, cliectMaker, databiz, meet, planning, reminders, todo } from "../assets/images";
 
 export const Features = [
     {
@@ -58,7 +29,7 @@ export const Company = [
         title: "History",
     },
     {
-        id: "our team",
+        id: "ourteam",
         title: "Our Team",
     },
     {

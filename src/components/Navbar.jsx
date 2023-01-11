@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-screen h-[80px]"> 
-      <div className="px-2 flex justify-between items-center w-full h-full">
+      <div className="px-[2rem] lg:px-[5rem] flex justify-between items-center w-full h-full">
         <div className="flex items-center">
             <img src={logo} alt="img_logo" className="h-full p-6" />
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <img
           src={arrow ? arrowUp : arrowDown}
           alt="menu"
-          className="h-[8px] px-2 mt-2.5 object-contain"
+          className=" h-[8px] px-2 mt-2.5 object-contain"
           onClick={() => setArrow(!arrow)}
         />
         <div
@@ -103,7 +103,7 @@ const Navbar = () => {
                 </li>
             </ul> 
 
-        <div className="sm:hidden flex justify-end items-center">
+        <div className="mr-10 sm:hidden flex justify-end items-center">
         <img
           src={toggle ? menuclose : menu}
           alt="menu"
